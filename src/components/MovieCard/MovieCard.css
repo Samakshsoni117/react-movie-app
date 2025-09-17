@@ -1,0 +1,40 @@
+.movie-card {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  background-color: #202020; /* Base color for skeleton */
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.movie-card .movie-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0));
+  padding: 20px 10px 10px 10px;
+}
+
+.movie-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}

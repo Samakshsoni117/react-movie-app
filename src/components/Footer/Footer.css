@@ -1,0 +1,42 @@
+.footer {
+  background-color: #1a1a1a;
+  padding: 25px 0;
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: #aaa;
+  font-size: 1.5rem; /* 24px */
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.copyright-text {
+  margin: 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.tmdb-attribution {
+  margin: 10px 0 0 0;
+  font-size: 0.75rem;
+  color: #666;
+}
