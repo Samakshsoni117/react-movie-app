@@ -64,3 +64,22 @@
 .watchlist-btn.remove:hover {
   background-color: #777;
 }
+@media (max-width: 768px) {
+  .detail-content {
+    flex-direction: column; /* Stack the poster and info */
+    align-items: center; /* Center the items when stacked */
+  }
+
+  .detail-poster {
+    width: 80%; /* Let the poster take up more width */
+    max-width: 300px;
+  }
+  
+  .detail-info {
+    text-align: center; /* Center the text to match the layout */
+  }
+  
+  .detail-info h1 {
+    font-size: 2rem; /* Reduce the movie title font size */
+  }
+}

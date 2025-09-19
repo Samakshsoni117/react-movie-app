@@ -55,3 +55,12 @@ h1 {
     background-position: -200% 0;
   }
 }
+@media (max-width: 768px) {
+  .homepage-container {
+    padding: 20px 15px; /* Reduce side padding */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Make the main title smaller */
+  }
+}

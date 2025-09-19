@@ -82,3 +82,10 @@
 .search-button:hover {
   background-color: #f40612;
 }
+
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column; /* Stack the logo/links and the search form */
+    gap: 15px;
+  }
+}
