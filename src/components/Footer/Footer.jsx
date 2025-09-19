@@ -15,10 +15,10 @@ const Footer = () => {
           <a href="https://github.com/samaksh117" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/samaksh-soni" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin />
           </a>
-          <a href="https://your-portfolio-website.com" target="_blank" rel="noopener noreferrer" aria-label="Portfolio">
+          <a href="https://my-portfolio-samaksh.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Portfolio">
             <FaGlobe />
           </a>
         </div>

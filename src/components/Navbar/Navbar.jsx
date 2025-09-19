@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { useWatchlist } from '../../context/WatchlistContext';
 import './Navbar.css';
 
 const Navbar = () => {
   const [query, setQuery] = useState('');
   const navigate = useNavigate();
+  const { watchlist } = useWatchlist();
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -23,6 +25,9 @@ const Navbar = () => {
           </Link>
           <Link to="/watchlist" className="nav-link">
             Watchlist
+            {watchlist.length > 0 && (
+              <span className="watchlist-count">{watchlist.length}</span>
+            )}
           </Link>
         </div>
         <form onSubmit={handleSearch} className="search-form">

@@ -30,10 +30,28 @@
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.2s;
+  /* Key styles for alignment */
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adds space between "Watchlist" and the badge */
 }
 
 .nav-link:hover {
   color: #fff;
+}
+
+/* Styles for the badge itself */
+.watchlist-count {
+  background-color: #e50914;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: bold;
 }
 
 .search-form {
